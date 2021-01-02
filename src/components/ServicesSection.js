@@ -60,8 +60,14 @@ const ServicesSection = () => {
 const Services = styled(About)`
 h2{
     padding-bottom: 5rem;
+}
+p {
+    width: 70%auto;
     padding: 2rem 0rem 4rem 0rem;
 }
+@media (max-width: 1300px){
+        display: block;
+        }
 `;
 const Cards = styled.div`
     display: flex;

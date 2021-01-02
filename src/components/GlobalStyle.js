@@ -8,6 +8,15 @@ const GlobalStyle  = createGlobalStyle`
         box-sizing: border-box
     }
 
+    html{
+        @media (max-width: 1700px){
+            font-size: 80%80vh;
+        }
+        @media (max-width: 1300px){
+                
+        }
+        
+    }
     body{
         background: #1b1b11;
         font-family: 'Inter', sans-serif;
