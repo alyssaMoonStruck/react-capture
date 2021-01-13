@@ -17,19 +17,19 @@ const ServicesSection = () => {
     return(
         <Services variants={fade} animate={controls} initial='hidden' ref={element}>
             <Description >
-                <h2> High <span>quality</span> services</h2>
+                <h2> About <span>Me</span></h2>
                 <Cards>
                     <Card>
                         <div className="icon">
                             <img alt="icon" src={clock}/>
-                            <h3>Efficient</h3>
+                            <h3>Languages</h3>
                         </div>
                         <p>Loremi kjyf ygvbhjb uyg bh</p>
                     </Card>
                     <Card>
                         <div className="icon">
                             <img alt="icon" src={diaphragm}/>
-                            <h3>Diaphragm</h3>
+                            <h3>Education</h3>
                         </div>
                         <p>Loremi kjyf ygvbhjb uyg bh</p>
                     </Card>
